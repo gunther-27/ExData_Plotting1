@@ -1,8 +1,6 @@
 #load library
 library(lubridate)
 
-#set directory 
-setwd("C:/Users/jegun/OneDrive/Documents/Coursera/04_Data_Exploration/Project1")
 #load file
 df <- read.csv('household_power_consumption.txt', sep = ';')
 
